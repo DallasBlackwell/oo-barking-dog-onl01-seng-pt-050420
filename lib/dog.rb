@@ -10,10 +10,30 @@ class Dog
   
   def bark=(dog_bark)
     @this_dogs_bark = dog_bark
+      puts "is able to bark"
+      puts woof
   end  
   
   def bark
     @this_dogs_bark
-      puts "woof!"
+      
   end
 end
+
+fido = Dog.new
+fido.name
+fido.bark
+
+puts fido.name 
+puts fido.bark
+
+# class Dog
+#   def bark
+#     puts "Woof!"
+#   end
+#   def sit
+#     puts "The Dog is sitting"
+#   end
+# end
+
+# fido = Dog.new
