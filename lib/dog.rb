@@ -17,10 +17,3 @@ class Dog
       puts "woof!"
   end
 end
-
-fido = Dog.new
-fido.name
-fido.bark
-
-puts fido.name 
-puts fido.bark
