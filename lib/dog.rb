@@ -9,6 +9,7 @@ class Dog
   
   def bark=(dog_bark)
     @this_dogs_bark = dog_bark
+      "is able to bark"
   end  
   
   def bark
